@@ -8,6 +8,15 @@
             "description": "Better Inside, More in Sight",
             "oui": "24e124",
             "devices": "vendors/milesight-iot/devices.json"
+        },
+		 {
+            "id": "codec-test",
+            "name": "Codec IoT",
+            "logo": "vendors/codec-test/logo.png",
+            "website": "https://www.milesight-iot.com",
+            "description": "Better Inside, More in Sight",
+            "oui": "24e124",
+            "devices": "vendors/codec-test/devices.json"
         }
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0",
+    "devices": [
+        {
+            "id": "am307",
+            "name": "AM307-cus",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6707",
+            "deveui": "24e124707",
+            "device_profile": ["ClassA-OTAA"],
+            "codec": "vendors/codec-test/am307-cus/am307-cus-codec.json",
+            "decoder_script": "vendors/codec-test/am307-cus/am307-cus-decoder.js",
+            "encoder_script": "vendors/codec-test/am307-cus/am307-cus-encoder.js"
+        },
+        {
+            "id": "ts201",
+            "name": "TS201-cus",
+            "description": "Temperature Sensor",
+            "catalog": "ts",
+            "sn": "6809",
+            "deveui": "24e124809",
+            "device_profile": ["ClassA-OTAA"],
+            "codec": "vendors/codec-test/ts201-cus/ts201-cus-codec.json",
+            "decoder_script": "vendors/codec-test/ts201-cus/ts201-cus-decoder.js",
+            "encoder_script": "vendors/codec-test/ts201-cus/ts201-cus-encoder.js"
+        }
+    ]
+}
