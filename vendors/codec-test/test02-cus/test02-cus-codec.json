@@ -201,18 +201,7 @@
             "bacnet_unit_type": "UNITS_NO_UNITS"
         },
         {
-            "id": "fetch_history",
-            "name": "Fetch History Data",
-            "value": "",
-            "unit": "",
-            "access_mode": "W",
-            "data_type": "OBJECT",
-            "value_type": "STRUCT",
-            "bacnet_unit_type_id": 95,
-            "bacnet_unit_type": "UNITS_NO_UNITS"
-        },
-        {
-            "id": "fetch_history.start_time",
+            "id": "fetch_history_data.start_time",
             "name": "Fetch History Data Start Time",
             "value": "",
             "unit": "s",
@@ -222,10 +211,10 @@
             "bacnet_type": "analog_output_object",
             "bacnet_unit_type_id": 73,
             "bacnet_unit_type": "UNITS_SECONDS",
-            "reference": ["fetch_history.end_time"]
+            "reference": ["fetch_history_data.end_time"]
         },
         {
-            "id": "fetch_history.end_time",
+            "id": "fetch_history_data.end_time",
             "name": "Fetch History Data End Time",
             "value": "",
             "unit": "s",
@@ -235,7 +224,7 @@
             "bacnet_type": "analog_output_object",
             "bacnet_unit_type_id": 73,
             "bacnet_unit_type": "UNITS_SECONDS",
-            "reference": ["fetch_history.start_time"]
+            "reference": ["fetch_history_data.start_time"]
         },
         {
             "id": "clear_history_data",
@@ -282,11 +271,28 @@
             "bacnet_unit_type": "UNITS_SECONDS"
         },
         {
-            "id": "stop_transmit",
-            "name": "Stop transmit",
+            "id": "stop_retransmit",
+            "name": "Stop Retransmit",
             "value": "",
             "unit": "",
             "access_mode": "W",
+            "data_type": "BOOL",
+            "value_type": "UINT8",
+            "values": [
+                { "value": 0, "name": "No" },
+                { "value": 1, "name": "Yes" }
+            ],
+            "bacnet_type": "binary_output_object",
+            "bacnet_unit_type_id": 95,
+            "bacnet_unit_type": "UNITS_NO_UNITS"
+        }
+		,
+        {
+            "id": "test_01",
+            "name": "test 01",
+            "value": "",
+            "unit": "",
+            "access_mode": "",
             "data_type": "BOOL",
             "value_type": "UINT8",
             "values": [

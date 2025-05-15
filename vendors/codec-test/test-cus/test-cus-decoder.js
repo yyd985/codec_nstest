@@ -58,7 +58,7 @@ function milesight(bytes) {
         }
         // TEMPERATURE
         else if (channel_id === 0x03 && channel_type === 0x67) {
-            decoded.temperature = readInt16LE(bytes.slice(i, i + 2)) / 100;
+            decoded.temperature = readInt16LE(bytes.slice(i, i + 2)) / 1;
             i += 2;
         }
         // TEMPERATURE THRESHOLD ALARM
@@ -75,7 +75,7 @@ function milesight(bytes) {
         // TEMPERATURE MUTATION ALARM
         else if (channel_id === 0x93 && channel_type === 0x67) {
             var data = {};
-            data.temperature = readInt16LE(bytes.slice(i, i + 2)) / 1;
+            data.temperature = readInt16LE(bytes.slice(i, i + 2)) / 10;
             data.temperature_mutation = readInt16LE(bytes.slice(i + 2, i + 4)) / 10;
             data.temperature_alarm = bytes[i + 4];
             i += 5;
