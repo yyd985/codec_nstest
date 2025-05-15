@@ -7,6 +7,7 @@
  */
 function Encode(fPort, obj) {
     var encoded = milesightDeviceEncoder(obj);
+	console.log("YED TEST: ", JSON.stringify(obj, null, 2));
     return encoded;
 }
 
