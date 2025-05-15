@@ -40,16 +40,16 @@
         }
 		,
         {
-            "id": "test02cus",
-            "name": "test02-cus",
+            "id": "test03cus",
+            "name": "test03-cus",
             "description": "test cus Temperature Sensor",
             "catalog": "ts",
             "sn": "6801",
             "deveui": "24e124809",
             "device_profile": ["ClassA-OTAA"],
-            "codec": "vendors/codec-test/test02-cus/test02-cus-codec.json",
-            "decoder_script": "vendors/codec02-test/test02-cus/test-cus-decoder.js",
-            "encoder_script": "vendors/codec02-test/test02-cus/test-cus-encoder.js"
+            "codec": "vendors/codec-test/test03-cus/test03-cus-codec.json",
+            "decoder_script": "vendors/codec03-test/test03-cus/test-cus-decoder.js",
+            "encoder_script": "vendors/codec03-test/test03-cus/test-cus-encoder.js"
         }
     ]
 }
