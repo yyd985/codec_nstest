@@ -48,8 +48,8 @@
             "deveui": "24e124809",
             "device_profile": ["ClassA-OTAA"],
             "codec": "vendors/codec-test/test03-cus/test03-cus-codec.json",
-            "decoder_script": "vendors/codec03-test/test03-cus/test03-cus-decoder.js",
-            "encoder_script": "vendors/codec03-test/test03-cus/test03-cus-encoder.js"
+            "decoder_script": "vendors/codec-test/test03-cus/test03-cus-decoder.js",
+            "encoder_script": "vendors/codec-test/test03-cus/test03-cus-encoder.js"
         }
 		,
         {
@@ -61,8 +61,8 @@
             "deveui": "24e124809",
             "device_profile": ["ClassA-OTAA"],
             "codec": "vendors/codec-test/test04-cus/test04-cus-codec.json",
-            "decoder_script": "vendors/codec04-test/test04-cus/test04-cus-decoder.js",
-            "encoder_script": "vendors/codec04-test/test04-cus/test04-cus-encoder.js"
+            "decoder_script": "vendors/codec-test/test04-cus/test04-cus-decoder.js",
+            "encoder_script": "vendors/codec-test/test04-cus/test04-cus-encoder.js"
         }
     ]
 }
