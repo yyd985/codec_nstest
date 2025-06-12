@@ -303,5 +303,21 @@
             "bacnet_unit_type_id": 95,
             "bacnet_unit_type": "UNITS_NO_UNITS"
         }
+		,
+        {
+            "id": "test_02",
+            "name": "test 02",
+            "value": "",
+            "unit": "",
+            "data_type": "BOOL",
+            "value_type": "UINT8",
+            "values": [
+                { "value": 0, "name": "No" },
+                { "value": 1, "name": "Yes" }
+            ],
+            "bacnet_type": "binary_output_object",
+            "bacnet_unit_type_id": 95,
+            "bacnet_unit_type": "UNITS_NO_UNITS"
+        }
     ]
 }
